@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p 80",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm install && npm run build"
   },
   "dependencies": {
     "next": "latest",
